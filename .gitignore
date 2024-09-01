@@ -121,12 +121,6 @@ celerybeat.pid
 # SageMath parsed files
 *.sage.py
 
-# Exclude the catboost_info directory
-catboost_info/
-
-# Exclude the notebook directory
-notebook/
-
 # Environments
 .env
 .venv
