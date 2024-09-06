@@ -14,56 +14,64 @@ days_left           0
 price               0
 dtype: int64
 
-There are 8 independent variables :
-airline: The airline carrier of the flight. Categories include:
+**There are 8 independent variables :
+1. airline: The airline carrier of the flight. Categories include:
 
-'SpiceJet'
-'AirAsia'
-'Vistara'
-'GO_FIRST'
-'Indigo'
-'Air_India'
-source_city: The city from which the flight departs. Categories include:
+* SpiceJet
+* AirAsia
+* Vistara
+* GO_FIRST
+* Indigo
+* Air_India
 
-'Delhi'
-'Mumbai'
-'Bangalore'
-'Kolkata'
-'Hyderabad'
-'Chennai'
-departure_time: The time of day when the flight departs. Categories include:
+2. source_city: The city from which the flight departs. Categories include:
 
-'Evening'
-'Early_Morning'
-'Morning'
-'Afternoon'
-'Night'
-'Late_Night'
-stops: The number of stops the flight makes between the source and destination cities. Categories include:
+* Delhi
+* Mumbai
+* Bangalore
+* Kolkata
+* Hyderabad
+* Chennai
 
-'zero': Non-stop flight.
-'one': Flight with one stop.
-'two_or_more': Flight with two or more stops.
-arrival_time: The time of day when the flight arrives at the destination. Categories include:
+3. departure_time: The time of day when the flight departs. Categories include:
 
-'Night'
-'Morning'
-'Early_Morning'
-'Afternoon'
-'Evening'
-'Late_Night'
-destination_city: The city where the flight lands. Categories include:
+* Evening
+* Early_Morning
+* Morning
+* Afternoon
+* Night
+* Late_Night
 
-'Mumbai'
-'Bangalore'
-'Kolkata'
-'Hyderabad'
-'Chennai'
-'Delhi'
-class: The class of service in which the passenger is traveling. Categories include:
+4. stops: The number of stops the flight makes between the source and destination cities. Categories include:
 
-'Economy'
-'Business'
+* zero: Non-stop flight.
+* one : Flight with one stop.
+* two_or_more : Flight with two or more stops.
+
+5. arrival_time: The time of day when the flight arrives at the destination. Categories include:
+
+* Night
+* Morning
+* Early_Morning
+* Afternoon
+* Evening
+* Late_Night
+
+6. destination_city: The city where the flight lands. Categories include:
+
+* Mumbai
+* Bangalore
+* Kolkata
+* Hyderabad
+* Chennai
+* Delhi
+
+7. class: The class of service in which the passenger is traveling. Categories include:
+
+* Economy
+* Business
+
+8. days_left: No. of days remaining before departure date ranging form 1 to 49
 
 Target variable:
 * `price`: Price of the given airline flight.
