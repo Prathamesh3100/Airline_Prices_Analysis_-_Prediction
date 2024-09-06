@@ -95,8 +95,8 @@ Dataset Source Link :
 
 # Exploratory Data Analysis Notebook
 
-Link : [EDA Notebook](./notebook/EDA Airline Prices.ipynb)
+Link : [EDA Notebook](https://github.com/Prathamesh3100/Airline_Prices_Analysis_and_Prediction/blob/main/notebook/EDA%20Airline%20Prices.ipynb)
 
 # Model Training Approach Notebook
 
-Link : [Model Training Notebook](./notebook/MODEL TRAINING.ipynb)
+Link : [Model Training Notebook](https://github.com/Prathamesh3100/Airline_Prices_Analysis_and_Prediction/blob/main/notebook/MODEL%20TRAINING.ipynb)
