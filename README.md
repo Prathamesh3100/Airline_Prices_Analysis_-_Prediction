@@ -2,7 +2,8 @@
 
 ### Introduction About the Data :
 
-**The dataset** The goal is to predict `price` of given airline flight (Regression Analysis). Based on these parameters airline, source_city, departure_time, stops, arrival_time, destination_city, class, days_left before departure date
+* The goal is to predict `price` of given airline flight (Regression Analysis). Based on the parameters:
+* airline, source_city, departure_time, stops, arrival_time, destination_city, class, days_left before departure date
 
 Target variable:
 * `price`: Price of the given airline flight.
