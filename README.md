@@ -3,7 +3,7 @@
 ### Introduction About the Data :
 
 * The goal is to predict `price` of given airline flight (Regression Analysis). Based on the parameters:
-* airline, source_city, departure_time, stops, arrival_time, destination_city, class, days_left before departure date
+  airline, source_city, departure_time, stops, arrival_time, destination_city, class, days_left before departure date
 
 Target variable:
 * `price`: Price of the given airline flight.
