@@ -3,73 +3,63 @@
 ### Introduction About the Data :
 
 **The dataset** The goal is to predict `price` of given airline flight (Regression Analysis).
-airline             0
-source_city         0
-departure_time      0
-stops               0
-arrival_time        0
-destination_city    0
-class               0
-days_left           0
-price               0
-dtype: int64
 
 **There are 8 independent variables :
 1. airline: The airline carrier of the flight. Categories include:
 
-* SpiceJet
-* AirAsia
-* Vistara
-* GO_FIRST
-* Indigo
-* Air_India
+   * SpiceJet
+   * AirAsia
+   * Vistara
+   * GO_FIRST
+   * Indigo
+   * Air_India
 
 2. source_city: The city from which the flight departs. Categories include:
 
-* Delhi
-* Mumbai
-* Bangalore
-* Kolkata
-* Hyderabad
-* Chennai
+   * Delhi
+   * Mumbai
+   * Bangalore
+   * Kolkata
+   * Hyderabad
+   * Chennai
 
 3. departure_time: The time of day when the flight departs. Categories include:
 
-* Evening
-* Early_Morning
-* Morning
-* Afternoon
-* Night
-* Late_Night
+   * Evening
+   * Early_Morning
+   * Morning
+   * Afternoon
+   * Night
+   * Late_Night
 
 4. stops: The number of stops the flight makes between the source and destination cities. Categories include:
 
-* zero: Non-stop flight.
-* one : Flight with one stop.
-* two_or_more : Flight with two or more stops.
+   * zero: Non-stop flight.
+   * one : Flight with one stop.
+   * two_or_more : Flight with two or more stops.
 
 5. arrival_time: The time of day when the flight arrives at the destination. Categories include:
 
-* Night
-* Morning
-* Early_Morning
-* Afternoon
-* Evening
-* Late_Night
+   * Night
+   * Morning
+   * Early_Morning
+   * Afternoon
+   * Evening
+   * Late_Night
 
 6. destination_city: The city where the flight lands. Categories include:
 
-* Mumbai
-* Bangalore
-* Kolkata
-* Hyderabad
-* Chennai
-* Delhi
+   * Mumbai
+   * Bangalore
+   * Kolkata
+   * Hyderabad
+   * Chennai
+   * Delhi
 
 7. class: The class of service in which the passenger is traveling. Categories include:
 
-* Economy
-* Business
+   * Economy
+   * Business
 
 8. days_left: No. of days remaining before departure date ranging form 1 to 49
 
